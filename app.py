@@ -33,7 +33,7 @@ df.rename(columns={
 # Encontrar la fila correspondiente a la fecha actual
 current_row = df[(df['Llegada'] <= today) & (df['Salida'] >= today)]
 
-# Verificar si se encontró una fila válida
+# Verificar si se encontró una fila válida 
 if not current_row.empty:
     # Obtener la distribución de los inmuebles para la fecha actual
     santa_cruz = current_row['SantaCruz'].values[0]
