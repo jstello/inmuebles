@@ -12,7 +12,7 @@ Inicio	Fin	SantaCruz	Cartagena	Miravalle
 '''
 
 # Read dataframe with header on row 3, only reading columns F, G, L, M, N, and sheet `Secuencial fija`
-df = pd.read_excel(r'C:\Users\juan_tello\Documents\CanoSanz\Sorteo inmuebles Secuencial Asignados.xlsx', header=2, usecols='F:G, L:N', sheet_name='Secuencial fija')
+df = pd.read_excel(r'Sorteo inmuebles Secuencial Asignados.xlsx', header=2, usecols='F:G, L:N', sheet_name='Secuencial fija')
 # st.dataframe(df)
 # st.stop()
 # Convertir las columnas de fecha a tipo datetime
