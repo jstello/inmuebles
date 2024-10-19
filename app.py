@@ -56,7 +56,7 @@ if not current_row.empty:
 else:
     st.write('No se encontró una distribución válida para la fecha actual.')
 
-with st.expander("Asignaciones por fecha..."):
+with st.expander("Asignaciones por fecha...", expanded=True):
     cols = st.columns(3)
     # inmueble = cols[0].selectbox('Inmueble', ['SantaCruz', 'Cartagena', 'Miravalle'])
     # tennant = cols[1].selectbox('Inquilino', ['Turritop', 'Minka', 'RC', 'AMC'])
@@ -67,7 +67,7 @@ with st.expander("Asignaciones por fecha..."):
     st.table(df_filtered)
 
 # Add this new expander section
-with st.expander("Cuándo me toca Santa Cruz?"):
+with st.expander("Cuándo me toca Santa Cruz?", expanded=True):
     
     # Define a fixed color palette for the 6 tenants
     TENANT_COLORS = {
@@ -141,7 +141,7 @@ with st.expander("Cuándo me toca Santa Cruz?"):
         # Display an empty calendar for the selected year
         calendar(events=[], options=calendar_options)
 
-with st.expander("Distribución de inmuebles"):
+with st.expander("Distribución de inmuebles", expanded=True):
     
     cols = st.columns(3)
     
