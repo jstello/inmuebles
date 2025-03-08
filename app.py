@@ -49,7 +49,7 @@ from streamlit_calendar import calendar
 # st.write(f"Bienvenido *{name}*")
 
 # MAIN APPLICATION CONTENT (keep this uncommented)
-st.title("Assignment Calendar")
+st.title("Calendar de Inmuebles")
 
 df = pd.read_excel(r'Sorteo inmuebles Secuencial Asignados.xlsx', header=2, usecols='F:G, L:N', sheet_name='Secuencial fija')
 df['Llegada'] = pd.to_datetime(df['Llegada'], format='%d-%b-%Y')
