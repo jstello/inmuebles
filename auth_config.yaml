@@ -1,0 +1,15 @@
+credentials:
+  usernames:
+    juan:
+      email: jstello@gmail.com  # Your personal email
+      name: Juan Tello
+      password: "$2b$12$1uDoCZcsFJ5k22KggJU4seWMzkdUSec3x3eGmQNbD92YSUBhvHmxa"  # Hashed password
+    maria:
+      email: maria@gmail.com
+      name: Maria Garcia
+      password: "$2b$12$Qq3bN9JZfE9DnY5gWp8zOePaWxn96p36WQoeG6Lruj3vjPGgaYlJQ"  # Another hash
+cookie:
+  expiry_days: 30
+  key: "kPyllBmEkC3jlyGFz10JCtIQ-TfG6BN2XcuwP34aBmsrlOgOOBZDgR16B484nLw7v3h9PDfwf9_TnUN5XNRdLg"  # Replace with actual strong key
+  name: auth_cookie
+ 
